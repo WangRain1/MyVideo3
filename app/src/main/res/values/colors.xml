@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#303135</color>
+    <color name="colorPrimaryDark">#2c2c2e</color>
+    <color name="colorAccent">#000</color>
+
+    <color name="white">#fff</color>
+    <color name="day_backgroup_color">#FFFFFFFF</color>
+    <color name="main_color">#FA7C20</color>
+    <color name="light_gray">#808080</color>
+    <color name="gray">#FFF0F0F0</color>
+
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#727272</color>
+
+    <color name="loading_backgroup">#2a80b9</color>
+    <color name="loading_color">#ffffff</color>
+
+
+    <color name="black_dft">#3c3c3c</color>
+    <!--<color name="translate">#00000000</color>-->
+    <color name="bg_main">#f0eff4</color>
+    <color name="gray_dft">#888888</color>
+    <color name="dividing_light">#f0f0f0</color>
+    <color name="dividing_dark">#c9c9c9</color>
+
+</resources>

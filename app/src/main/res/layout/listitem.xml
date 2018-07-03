@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.marshon.swipe.SwipeWraper
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/swipelayout"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tv_delete"
+        android:layout_width="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_height="match_parent"
+        android:text="删除"
+        android:elevation="2dp"
+        android:textColor="#ffffff"
+        android:background="#dc3e3e"
+        android:gravity="center"
+        android:textSize="15sp"/>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:orientation="horizontal">
+
+        <View
+            android:background="#d9d7d7"
+            android:layout_width="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_height="0.6dp"/>
+    <ImageView
+        android:id="@+id/ima"
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:elevation="2dp"
+        android:scaleType="fitXY"
+        android:layout_centerVertical="true"
+        android:src="@mipmap/head"/>
+
+        <TextView
+            android:id="@+id/tex"
+            android:text="第一滴第一滴第一滴第一滴第一滴第一滴第一滴第一滴第一滴第一滴第一滴"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary"
+            android:layout_toRightOf="@+id/ima"
+            android:layout_margin="5dp"
+            />
+    </RelativeLayout>
+</com.marshon.swipe.SwipeWraper>
